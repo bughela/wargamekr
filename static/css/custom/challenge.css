@@ -1,0 +1,7 @@
+div.challenge_auth {float: left; width:70%}
+div.challenge_auth input[type=text] {margin-right: 10px; width: 50%;}
+div.challenge_auth:after {
+	content: '';
+	display: block;
+	clear: both;
+}

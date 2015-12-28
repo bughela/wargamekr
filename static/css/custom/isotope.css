@@ -1,0 +1,66 @@
+.isotope_layout * {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* ---- isotope ---- */
+
+.isotope_layout .isotope {
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+/* clear fix */
+.isotope_layout .isotope:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.isotope_layout .element-item {
+	position: relative;
+	float: left;
+	width: 210px;
+	height: 80px;
+	margin: 5px;
+	padding: 10px;
+	color: black;
+	border: 1px solid #c8c8c8;
+	cursor: pointer;
+	box-shadow: 7px 7px 5px #888;
+}
+
+.isotope_layout .element-item:hover {
+	background: black;
+	color: white;
+}
+
+.isotope_layout .element-item > * {
+	margin: 0;
+	padding: 0;
+}
+
+.isotope_layout .element-item .name {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.isotope_layout .element-item .point {
+	float: left;
+}
+
+.isotope_layout .element-item .author {
+	float: right;
+}
+
+.isotope_layout .element-item .author:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.isotope_layout .element-item.solved { }
