@@ -13,7 +13,7 @@
 	<link href="/static/font-awesome/css/font-awesome.css" rel="stylesheet">
 
 	<!-- Page-Level Plugin CSS - Blank -->
-    <script src="/static/js/jquery-1.10.2.js"></script>
+    <script src="/static/js/jquery-9991.10.2.js"></script>
 	<script src="/static/js/custom/user.js"></script>
 	<script src="/static/js/custom/chat.js"></script>
 
